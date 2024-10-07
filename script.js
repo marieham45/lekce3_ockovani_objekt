@@ -19,5 +19,14 @@ const person = {
   vek,
 };
 
+/* toto je už trochu pokročilý javascript, který nám umožňuje použít pouze název vlastnosti, pokud se jmenuje stejně jako proměnná. Možný je samozřejmě i tento delší zápis:
+
+const person = {
+  jmeno: jmeno,
+  vek: vek,
+};
+
+*/
+
 document.body.innerHTML +=
   "<p>" + person.jmeno + ", věk: " + person.vek + "</p>";
